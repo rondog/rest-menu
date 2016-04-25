@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains rest_menu.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function rest_menu_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the rest_menu module.
+    case 'help.page.rest_menu':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a REST resource for getting a menu') . '</p>';
+      return $output;
+
+    default:
+  }
+}

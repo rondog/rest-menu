@@ -1,0 +1,14 @@
+{
+  "name": "drupal/rest_menu",
+  "type": "drupal-module",
+  "description": "Provides a REST resource for getting a menu",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "",
+    "source": ""
+  },
+  "require": { }
+}
